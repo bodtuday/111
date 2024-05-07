@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font: 12px/150% Arial, Verdana, "Microsoft YaHei", "微软雅黑";
+
+  background-color: #fff;
+
+}
+
+.bt h2 {
+  color: #000;
+}
+
+.info-box table {
+  color: #666;
+}
+
+.info-box table td:first-child {
+  width: 25%;
+
+}
+
+.info-box table tr {
+  height: 28px;
+  line-height: 28px;
+}
+
+.info-box table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/**/
+@media(min-width:990px) {
+  .container {
+    width: 800px;
+    margin-top: 50px;
+  }
+}
+
+@media(max-width:560px) {
+  .bt h2 {
+    font-size: 20px;
+  }
+}
